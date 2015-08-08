@@ -1,0 +1,20 @@
+apply plugin: 'war'
+apply plugin: 'eclipse-wtp'
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+group = 'com.suixingpay'
+version = "1.0-SNAPSHOT"
+
+tasks.withType(JavaCompile) {
+	options.encoding = "UTF-8"
+}
+
+
+repositories {
+    
+}
+
+dependencies {
+   
+}
+
